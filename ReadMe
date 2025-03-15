@@ -1,0 +1,33 @@
+# Manual Artificial Neural Network (ANN)
+
+## Overview
+This project implements a **manual Artificial Neural Network (ANN)** without using deep learning frameworks like TensorFlow or PyTorch. The goal is to understand the fundamental workings of neural networks by building one from scratch.
+
+## Features
+- Implements **forward and backward propagation** manually
+- Uses **NumPy** for mathematical computations
+- Supports multiple layers and activation functions
+- Trains on a small dataset to demonstrate learning
+
+## Installation
+```bash
+pip install numpy
+```
+
+## Usage
+Run the Jupyter Notebook:
+```bash
+jupyter notebook Manual_ANN.ipynb
+```
+
+## Files
+- `Manual_ANN.ipynb` - Jupyter Notebook containing the manual ANN implementation.
+
+## Future Enhancements
+- Add support for different optimization techniques
+- Implement batch normalization
+- Extend to deeper networks
+
+## Author
+Muhammad Dawood Iqbal
+
