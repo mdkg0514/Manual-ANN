@@ -1,32 +1,32 @@
-# Bounding Box Object Detection using CNN
+# Manual Artificial Neural Network (ANN)
 
 ## Overview
-This project implements an **Object Detector with Bounding Boxes** using a **Convolutional Neural Network (CNN)**. The model is trained to detect objects and predict their bounding box coordinates.
+This project implements a **manual Artificial Neural Network (ANN)** without using deep learning frameworks like TensorFlow or PyTorch. The goal is to understand the fundamental workings of neural networks by building one from scratch.
 
 ## Features
-- Uses a **CNN architecture** to detect objects
-- Outputs **bounding box coordinates** for detected objects
-- Trained on a dataset with labeled bounding boxes
-- Uses **TensorFlow/Keras** for deep learning implementation
+- Implements **forward and backward propagation** manually
+- Uses **NumPy** for mathematical computations
+- Supports multiple layers and activation functions
+- Trains on a small dataset to demonstrate learning
 
 ## Installation
 ```bash
-pip install tensorflow numpy matplotlib
+pip install numpy
 ```
 
 ## Usage
 Run the Jupyter Notebook:
 ```bash
-jupyter notebook Bounding_Box.ipynb
+jupyter notebook Manual_ANN.ipynb
 ```
 
 ## Files
-- `Bounding_Box.ipynb` - Jupyter Notebook containing the CNN model for object detection.
+- `Manual_ANN.ipynb` - Jupyter Notebook containing the manual ANN implementation.
 
 ## Future Enhancements
-- Improve accuracy with data augmentation
-- Implement YOLO-based detection
-- Extend to multi-object detection
+- Add support for different optimization techniques
+- Implement batch normalization
+- Extend to deeper networks
 
 ## Author
 Muhammad Dawood Iqbal
